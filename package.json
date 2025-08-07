@@ -1,0 +1,14 @@
+{
+  "name": "ss-scroll-reveal",
+  "author": "Rosis Sharma",
+  "version": "1.0.0",
+  "bin": {
+    "ss-scroll-reveal": "index.js"
+  },
+  "scripts": {
+    "postinstall": "chmod +x index.js"
+  },
+  "dependencies": {
+    "fs-extra": "^11.0.0"
+  }
+}
