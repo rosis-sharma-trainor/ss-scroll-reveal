@@ -16,7 +16,7 @@ async function scaffoldScrollReveal() {
   await fs.copy(jsTemplate, jsTarget);
   await fs.copy(cssTemplate, cssTarget);
 
-  await updateIndexJs(indexJsPath, 'scrollReveal');
+  await updateIndexJs(indexJsPath, 'scroll-reveal');
 
   console.log('Scroll Reveal scaffolded successfully.');
 }

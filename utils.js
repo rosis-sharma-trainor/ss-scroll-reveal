@@ -8,7 +8,7 @@ async function ensureMotionInstalled(baseDir) {
 
   if (!pkg.dependencies?.motion) {
     console.log('Installing motion...');
-    execSync('npm install motion', { cwd: baseDir, stdio: 'inherit' });
+    execSync('yarn add motion', { cwd: baseDir, stdio: 'inherit' });
   }
 }
 
