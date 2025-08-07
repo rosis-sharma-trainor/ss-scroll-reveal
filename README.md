@@ -2,6 +2,12 @@
 
 A CLI tool that scaffolds scroll reveal functionality.
 
+Run the following command from the root directory to add the files to your project.
+```
+npx https://github.com/rosis-sharma-trainor/ss-scroll-reveal.git
+```
+
+
 This tool copies two template files to your project:
 - `scroll-reveal.js`
 - `scroll-reveal.css`
